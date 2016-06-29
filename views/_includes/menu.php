@@ -1,5 +1,10 @@
 <?php if ( ! defined('ABSPATH')) exit; ?>
 
+<header class="wrap">
+	<img id="logo-principal" src="php.png" alt="Logotipo" title="Logotipo"/>
+
+</header><!-- .wrap -->
+
 <?php if ( $this->login_required && ! $this->logged_in ) return; ?>
 
 <nav class="menu clearfix">
